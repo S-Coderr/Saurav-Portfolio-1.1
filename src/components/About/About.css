@@ -42,6 +42,7 @@
 }
 .about-p3{
     word-wrap: break-word;
+    padding-block: 1rem;
 }
 
 @media screen and (max-width:850px) {
