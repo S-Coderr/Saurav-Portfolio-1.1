@@ -22,12 +22,6 @@ function Contact() {
 
   const changeHandle2 = (e) => {
     e.preventDefault();
-    
-    const InputData = {
-      name: inputData.username,
-      email: inputData.email,
-      message: inputData.message
-    };
    
     alert("Message submitted");
     sendEmail();
@@ -60,21 +54,21 @@ function Contact() {
             <MdOutlineMail  className='contact__icon'/>
             <h4>Email</h4>
             <h5>sauravkr6207@gmail.com</h5>
-            <a href="mailto:sauravkr6207@gmail.com" target="_blank">Send a Message</a>
+            <a href="mailto:sauravkr6207@gmail.com" target="_blank" rel="noreferrer">Send a Message</a>
             </article>
 
             <article className="contact__option">
             <RiMessengerLine  className='contact__icon'/>
             <h4>Messanger</h4>
             <h5>Saurav Kumar</h5>
-            <a href="https://www.messenger.com/t/100027182889191/" target="_blank">Send a Message</a>
+            <a href="https://www.messenger.com/t/100027182889191/" target="_blank" rel="noreferrer">Send a Message</a>
             </article>
 
             <article className="contact__option">
             <BsWhatsapp className='contact__icon'/>
             <h4>Whatsapp</h4>
             <h5>+91-6200708323</h5>
-            <a href="https://api.whatsapp.com/send?phone=+916200708323" target="_blank">Send a Message</a>
+            <a href="https://api.whatsapp.com/send?phone=+916200708323" target="_blank" rel="noreferrer">Send a Message</a>
             </article>
         </div>
 

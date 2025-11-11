@@ -23,11 +23,11 @@ function Navbar() {
     
       <nav>
         <div className="nav-title" id="nav-title" data-aos="zoom-in">
-          <a href="#">SK</a>
+          <a href="#home">SK</a>
         </div>
         <div className={isActive ? 'show-nav' : 'nav-item'} id="nav-item">
           <a
-            href="#"
+            href="#home"
             onClick={() => setActiveNav("#")}
             className={activeNav === "#" ? "active" : ""}
           >

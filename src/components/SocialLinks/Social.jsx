@@ -1,7 +1,7 @@
 import React from 'react';
 import './Social.css';
 import { FaLinkedinIn, FaFacebookF } from 'react-icons/fa';
-import { BsGithub, BsStackOverflow, BsInstagram } from 'react-icons/bs';
+import { BsGithub } from 'react-icons/bs';
 import resume from '../../assets/resume.pdf';
 
 function Social() {
