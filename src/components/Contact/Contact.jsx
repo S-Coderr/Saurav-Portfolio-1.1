@@ -13,14 +13,12 @@ function Contact() {
     email: "",
     message: "",
 });
- // const [Array, SetArray] = useState([]);
   
   const  changeHandle=(e)=>{
     const {name, value} =e.target;
     SetInputData({ ...inputData, [name]:value });
   }
 
-  //const { username,email,message } = inputData;
 
   const changeHandle2 = (e) => {
     e.preventDefault();

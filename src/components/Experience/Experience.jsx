@@ -19,7 +19,6 @@ function Experience() {
         <div className="experience-details "  >
             <p className='experience-p3'>24 hours hackathon</p>
             <p className='experience-p4'> Coding Ninja</p>
-            {/* <p className='experience-p5'>sep-23 to oct-23</p> */}
             <img src={intern4} alt="" data-aos="zoom-in-up" />
         </div>
 

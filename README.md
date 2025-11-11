@@ -4,21 +4,36 @@
 
 ## ⚡ Quick Start
 
+### Development Mode (with hot reload)
+
 ```bash
 # Install dependencies
 npm install
 
 # Start development server
 npm start
-
-# Build for production
-npm run build
-
-# Deploy to GitHub Pages
-npm run deploy
 ```
 
 Visit **[http://localhost:3000](http://localhost:3000)** to view the app.
+
+**OR** use the batch file:
+```bash
+start-dev.bat
+```
+
+### Production Mode (optimized build)
+
+```bash
+# Build and serve production version
+npm run prod
+```
+
+Visit **[http://localhost:5000](http://localhost:5000)** to view the production app.
+
+**OR** use the batch file:
+```bash
+start-production.bat
+```
 
 ---
 
@@ -54,13 +69,18 @@ portfolio/
 
 ## 🛠️ Available Commands
 
+### Frontend Commands
+
 | Command | Description |
 |---------|-------------|
 | `npm start` | 🔥 Start development server (port 3000) |
 | `npm run build` | 📦 Build optimized production bundle |
-| `npm run deploy` | � Deploy to GitHub Pages |
+| `npm run serve` | 🌐 Serve production build locally (port 5000) |
+| `npm run prod` | 🚀 Build & serve production in one command |
+| `start-dev.bat` | 💻 Quick start development server (Windows) |
+| `start-production.bat` | 🎯 Quick start production server (Windows) |
 
-### Server Commands (in `server/` directory)
+### Backend Server Commands (in `server/` directory)
 
 | Command | Description |
 |---------|-------------|
@@ -99,15 +119,53 @@ See `server/.env.example` for reference.
 
 ---
 
-## 🚀 Deployment
+## 🚀 Local Production Deployment
 
-This project is configured for GitHub Pages deployment:
+This project runs locally without requiring GitHub or cloud hosting.
 
+### Option 1: Using Batch Files (Easiest)
+
+**Development Server:**
 ```bash
-npm run deploy
+# Double-click or run:
+start-dev.bat
+# Opens at http://localhost:3000
 ```
 
-The site will be deployed to: `http://R-coder0.github.io/Saurav_MERN`
+**Production Server:**
+```bash
+# Double-click or run:
+start-production.bat
+# Opens at http://localhost:5000
+```
+
+### Option 2: Using npm Commands
+
+**Development Mode:**
+```bash
+npm start
+# Visit http://localhost:3000
+```
+
+**Production Mode:**
+```bash
+npm run prod
+# Visit http://localhost:5000
+```
+
+### Network Access
+
+To access from other devices on your local network:
+
+1. Find your computer's IP address:
+   ```bash
+   ipconfig
+   ```
+   Look for "IPv4 Address" (e.g., 192.168.1.100)
+
+2. Access from other devices:
+   - Development: `http://YOUR_IP:3000`
+   - Production: `http://YOUR_IP:5000`
 
 ---
 

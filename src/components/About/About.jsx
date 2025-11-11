@@ -19,8 +19,8 @@ function About() {
         </div>
         <div className="about-description" data-aos="zoom-in">
           <p className="about-p3">
-            I am a student and I am strong in design and integration with
-            intuitive problem￾solving skills.
+            I am a MCA student and possess strong skills in design and integration with
+            intuitive problem-solving skills.
             <br /> Proficient in Frontend design and development also familiar
             with UI design.
             <br /> passionate about implementing and launching new projects.

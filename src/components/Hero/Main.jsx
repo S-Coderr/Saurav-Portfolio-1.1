@@ -17,13 +17,13 @@ function Main() {
             HI, I AM
           </p>
 
-          <p className='p-2'>
+          <p className='p-3'>
             Saurav Kumar
           </p>
 
-          <p className='p-3'>
-            Web Developer ,<br/> UI/UX Designer, <br/> Content Creator <br/>  & Content Writer
-          </p>
+          <p className='p-2'>
+            Web Developer ,<br/> UI/UX Designer, <br/> Content Writer  <br/>  & Aspiring Data Analyst
+          </p> 
 
         </div>
       </div>

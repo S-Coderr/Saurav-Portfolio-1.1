@@ -39,7 +39,7 @@ function Certificate() {
       >
 
 
-        {/* Only include slides with available assets to avoid build errors. Add more images to `src/Assets` and import them here if you want extra slides. */}
+      
         <SwiperSlide className="achivement">
           <div className="certificate__img">
             <img src={C7} alt="" />

@@ -1,11 +1,11 @@
 import React from 'react';
 import './Projects.css';
-import img1 from '../../assets/portfolio.png';
+//import img1 from '../../assets/portfolio.png';
 import img3 from '../../assets/vpm.png';
 import img2 from '../../assets/DigitalMarketing.png';
 import img4 from '../../assets/weather-app.png';
 import img6 from '../../assets/gym-app.png';
-import img5 from '../../assets/BloggingWebsite.png';
+//import img5 from '../../assets/BloggingWebsite.png';
 import projects from '../../assets/projects.png';
 
 function Portfolio() {
@@ -19,16 +19,6 @@ function Portfolio() {
         <img src={projects} alt="" />
     </div>
     <div className="container portfolio__container">
-        {/* <article className='portfolio__item' data-aos="zoom-in-up">
-            <div className="portfolio__image">
-                <img src={img1} alt="" />
-            </div>
-            <h3>Responsive Portfolio Website</h3>
-            <div className="portfolio__item-cta">
-            <a href="https://github.com/R-Coder0/personal-portfolio"  target="_blank"   rel="noreferrer" className="github-btn">Github</a>
-            <a href="https://r-coder0.github.io/personal-portfolio/" className="livedemo-btn" target="_blank"   rel="noreferrer">Live Demo</a>
-            </div>
-        </article> */}
 
         <article className='portfolio__item' data-aos="zoom-in-up">
             <div className="portfolio__image">
@@ -76,17 +66,7 @@ function Portfolio() {
             </div>
         </article>
 
-        <article className='portfolio__item' data-aos="zoom-in-up">
-            <div className="portfolio__image">
-                <img src={img5} alt="" />
-            </div>
-            <h3>Blogging Website</h3>
-            <div className="portfolio__item-cta">
-            <a href="https://github.com/R-Coder0/R-Coder-Bootstrap" className="github-btn"  target="_blank"   rel="noreferrer">Github</a>
-            <a href="https://r-coder0.github.io/R-Coder-Bootstrap/" className="livedemo-btn"  target="_blank"   rel="noreferrer">Live Demo</a>
-            </div>
-        </article>
-    </div>
+      </div>
     </div>
   )
 }

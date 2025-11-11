@@ -16,7 +16,6 @@ function Navbar() {
   const [isActive, setIsActive] = useState(false);
 
   const handleClick = (event) => {
-    // 👇️ toggle isActive state on click
     setIsActive((current) => !current);
   };
   return (
@@ -24,7 +23,7 @@ function Navbar() {
     
       <nav>
         <div className="nav-title" id="nav-title" data-aos="zoom-in">
-          <a href="#">Sauravkr</a>
+          <a href="#">SK</a>
         </div>
         <div className={isActive ? 'show-nav' : 'nav-item'} id="nav-item">
           <a

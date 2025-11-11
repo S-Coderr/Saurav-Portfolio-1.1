@@ -4,10 +4,10 @@ import html from '../../assets/html.png';
 import node from '../../assets/node.png';
 import css from '../../assets/css.png';
 import js from '../../assets/js.png';
-import xd from '../../assets/xd.png';
+//import xd from '../../assets/xd.png';
 import react from '../../assets/react.png';
 import express from '../../assets/express.png';
-import mongodb from '../../assets/mongodb.png';
+//import mongodb from '../../assets/mongodb.png';
 import figma from '../../assets/figma.png';
 import git from '../../assets/git.png';
 import github from '../../assets/github.png';
@@ -61,11 +61,7 @@ function Skills() {
 
             </div>
 
-            <div className="skill-mongodb" data-aos="zoom-in">
-                <img src={mongodb} alt="" className='img-mongodb'/>
-                <p className='p-skill'>Intermediate</p>
-
-            </div>
+         
 
             <div className="skill-git" data-aos="zoom-in">
                 <img src={git} alt="" className='img-git'/>
@@ -85,11 +81,6 @@ function Skills() {
 
             </div>
 
-            <div className="skill-xd" data-aos="zoom-in">
-                <img src={xd} alt="" className='img-xd'/>
-                <p className='p-skill'>Intermediate</p>
-
-            </div>
         </div>
     </div>
       

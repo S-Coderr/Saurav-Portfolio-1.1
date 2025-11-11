@@ -17,7 +17,7 @@ function Social() {
               
         <div className="social-links" data-aos="zoom-in">
           <a
-            href="https://www.linkedin.com/feed/"
+            href="http://www.linkedin.com/in/saurav-kumar85"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -40,10 +40,7 @@ function Social() {
           >
             <FaFacebookF />
           </a>
-          {/* Uncomment and update these links if you want to show StackOverflow / Instagram
-          <a href="https://stackoverflow.com/users/21003375/rishabh-pratap" target="_blank" rel="noopener noreferrer" aria-label="Stack Overflow"><BsStackOverflow/></a>
-          <a href="https://www.instagram.com/rishabh_pratap005/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><BsInstagram/></a>
-          */}
+          
         </div>
     </div>
       
